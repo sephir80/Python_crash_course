@@ -2,6 +2,7 @@ import json
 
 
 def saluta_utente():
+    """Saluta utente per nome"""
     filename = "username.json"
     try:
         with open(filename) as f:
