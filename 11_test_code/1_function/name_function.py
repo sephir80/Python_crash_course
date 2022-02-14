@@ -1,4 +1,4 @@
-def get_formatted_name(nome, cognome):
+def get_formatted_name(nome, secondo_nome, cognome):
     """" Genera un ordinato nome completo"""
-    full_name = f"{nome} {cognome}"
+    full_name = f"{nome} {secondo_nome} {cognome}"
     return full_name.title()
