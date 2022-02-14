@@ -34,6 +34,3 @@ def saluta_utente():
 
 
 saluta_utente()
-
-
-
